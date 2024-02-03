@@ -1,0 +1,147 @@
+/* --------------------- Indhold ------------------------ */
+@font-face {
+  font-family: "KBH";
+  src: url("KBH/KBH-Regular.woff2") format("woff2");
+
+  font-family: "avenir";
+  src: url("Avenir/Avenir\ Book.ttf") format("ttf");
+}
+
+body {
+  font-family: "KBH", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "KBH", sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "KBH", sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: "avenir", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #002350;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "avenir", sans-serif;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+  color: black;
+  border: solid black;
+}
+
+/* ------------------ Nav start ---------------------- */
+
+nav {
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav img {
+  height: 100px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------- Nav start ------------------------ */
+
+/* ------------------- Body start ------------------------ */
+
+a {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+section {
+  position: relative;
+}
+
+.overlaytext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.overlaytext h1 {
+  display: inline-block;
+}
+
+.overlaytext h1 span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(1em);
+  animation: fadeInUp 2s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------- Body slut ------------------------ */
+
+/* ------------------ Footer start ---------------------- */
+
+footer {
+  background: #346ea4;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  height: 100px;
+  width: auto;
+  margin: 0 15px;
+}
+
+footer p,
+h2 {
+  margin: 0 15px;
+}
+
+/* ------------------- Footer slut ---------------------- */
