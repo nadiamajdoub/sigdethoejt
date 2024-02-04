@@ -15,12 +15,13 @@ body {
 
 h1 {
   font-family: "KBH", sans-serif;
-  font-size: 3em;
+  font-size: 4em;
+  padding-bottom: 5px;
 }
 
 h2 {
-  font-family: "KBH", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -36,7 +37,7 @@ button {
   border: none;
   cursor: pointer;
   font-family: "avenir", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 button:hover {
@@ -119,6 +120,37 @@ section {
   }
 }
 
+.typewriter h1 {
+  font-family: "KBH", sans-serif;
+  font-size: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0em;
+  animation: typing 3s steps(40, end), blink-caret 0.3s step-end infinite;
+  text-shadow: 1px 1px 2px #000000;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.background-container {
+  background-image: url("amiroverlay.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.content {
+  padding: 20px;
+  color: #fff;
+}
+
 /* ------------------- Body slut ------------------------ */
 
 /* ------------------ Footer start ---------------------- */
@@ -127,7 +159,7 @@ footer {
   background: #346ea4;
   color: white;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
