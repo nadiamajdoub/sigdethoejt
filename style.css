@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "KBH", sans-serif;
+  font-family: "avenir", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -194,7 +194,7 @@ section {
   color: white;
   border: 1px solid #ccc;
   padding: 20px;
-  width: 100%;
+  width: auto;
   height: 300px;
   margin-top: 100px;
 }
@@ -202,8 +202,29 @@ section {
 .boks p {
   margin: 0;
 }
+
+.blog {
+  margin-left: 0;
+}
+
 /* ------------------- Blog slut ------------------------ */
-/* ------------------- Body slut ------------------------ */
+/* ------------------- Far for livet start ------------------------ */
+
+.farforlivet {
+  font-family: "KBH", sans-serif;
+  font-size: 3em;
+  color: #002350;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+.OMFFS {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ------------------- Far for livet slut ------------------------ */
 
 /* ------------------ Footer start ---------------------- */
 
